@@ -3,8 +3,24 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --red: #ff605c;
+    --yellow: #ffbd44;
+    --orange: #ffa105;
+    --green: #00CA4E;
+    --blue: #1299f5;
+    --purple: #ba5dd2;
+    --dark: #242429;
+    --dark-gray: #2c2f36;
+    --gray: #a9a9a9;
+    --light: #f7f7f7;
+  }
   html {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
   }
+  body {
+
+  }
 }
+
